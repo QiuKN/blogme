@@ -13,8 +13,10 @@
 <script lang="ts">
 import { defineComponent, reactive, computed, toRefs } from 'vue';
 import { useStore } from 'vuex';
+// import { getServices } from '../api/user';
 export default defineComponent({
   setup() {
+    // getServices({ page: 1 });
     return {};
   },
 });

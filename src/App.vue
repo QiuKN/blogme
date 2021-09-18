@@ -8,6 +8,7 @@
 -->
 <template>
   <div id="diors-container">
+    <Nav />
     <div id="diors-box">
       <Header />
       <RouterView />
@@ -18,10 +19,12 @@
 <script lang="ts">
 import { defineComponent } from 'vue';
 import Header from '@/components/Layout/Header.vue';
+import Nav from '@/components/Layout/Nav.vue';
 export default defineComponent({
   name: 'App',
   components: {
     Header,
+    Nav,
   },
 });
 </script>

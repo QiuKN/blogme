@@ -8,7 +8,7 @@ import {
   getRefreshToken,
   getRefreshTokenKey,
   removeToken,
-} from "./cookies";
+} from "../cookies";
 
 export class Interceptors {
   instance: AxiosInstance;
